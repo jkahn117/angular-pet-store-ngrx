@@ -1,0 +1,43 @@
+<div *ngIf="pet">
+  <div class="page-header">
+    <h1>{{name}}</h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-xs-6 col-sm-3 thumbnail">
+      <img src="{{photourl}}" height="200" width="200" />
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+      
+      <h2>Details</h2>
+
+      <table class="table table-striped">
+        <tbody>
+          <tr>
+            <th scope="row">Category</th>
+            <td>{{category}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Age</th>
+            <td>{{age}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Status</th>
+            <td>{{status}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Notes</th>
+            <td>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum lacus venenatis nibh egestas eleifend.
+            </td>
+          </tr>
+        </tbody>
+      </table>      
+
+    </div>
+
+  </div>
+</div>
+

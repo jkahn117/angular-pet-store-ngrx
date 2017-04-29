@@ -1,0 +1,19 @@
+<form class="form-signin">
+  <h2 class="form-signin-heading">Please sign in</h2>
+
+  <div *ngIf="message!=nil" class="alert alert-danger">
+    {{message}}
+  </div>
+
+  <label for="username" class="sr-only">Username</label>
+  <input type="text" placeholder="username" class="form-control"
+    required="required" autofocus [(ngModel)]="username" name="username" />
+  
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" placeholder="password" class="form-control"
+    required="required" [(ngModel)]="password" name="password" />
+  
+  <button class="btn btn-lg btn-primary btn-block" (click)="onLogin()">
+    Sign in
+  </button>
+</form>
