@@ -152,6 +152,12 @@
     magic-string "^0.19.0"
     source-map "^0.5.6"
 
+"@types/aws-sdk@0.0.42":
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/@types/aws-sdk/-/aws-sdk-0.0.42.tgz#a9feca87cdee5e40647f8f51577cbd15d3789423"
+  dependencies:
+    "@types/node" "*"
+
 "@types/aws4@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@types/aws4/-/aws4-1.5.1.tgz#361fadab198a030ab398269183ae3fa86e958ed9"
@@ -159,6 +165,10 @@
 "@types/jasmine@2.5.38":
   version "2.5.38"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.38.tgz#a4379124c4921d4e21de54ec74669c9e9b356717"
+
+"@types/node@*":
+  version "14.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.0.tgz#7d4411bf5157339337d7cff864d9ff45f177b499"
 
 "@types/node@^6.0.46", "@types/node@~6.0.60":
   version "6.0.64"
@@ -434,11 +444,17 @@ aws-sdk@^2.22.0, aws-sdk@^2.6.0:
     xml2js "0.4.15"
     xmlbuilder "2.6.2"
 
+aws-sign-web@^1.2.1:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/aws-sign-web/-/aws-sign-web-1.5.0.tgz#251526ff2f58145a010503bbc419a0c5b16b9a0f"
+  dependencies:
+    crypto-js "^3.1.9-1"
+
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
 
-aws4@^1.2.1, aws4@^1.6.0:
+aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
@@ -1125,6 +1141,10 @@ crypto-browserify@^3.11.0:
     pbkdf2 "^3.0.3"
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
+
+crypto-js@^3.1.9-1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
 
 css-color-names@0.0.4:
   version "0.0.4"
@@ -3843,6 +3863,10 @@ query-string@^4.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
+querystring-browser@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/querystring-browser/-/querystring-browser-1.0.4.tgz#f2e35881840a819bc7b1bf597faf0979e6622dc6"
+
 querystring-es3@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
@@ -4543,8 +4567,8 @@ string_decoder@^0.10.25, string_decoder@~0.10.x:
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
 
 stringstream@~0.0.4:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#7880225b0d4ad10e30927d167a1d6f2fd3b33a72"
 
 strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
